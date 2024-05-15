@@ -92,7 +92,7 @@ function OpenNav(){
                 this.$el.style.setProperty('--marquee-width', originalWidth + 'px')
                 this.$el.style.setProperty(
                 '--marquee-time',
-                ((1 / speed) * originalWidth) / 80 + 's'
+                ((1 / speed) * originalWidth) / 50 + 's'
                 )
                 this.resize()
 
