@@ -11,8 +11,6 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- maquee slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js" integrity="sha512-JCRiGqeZmFnnSl3E68K2QpL8Pwvp4PKAqekg41WWUfjqCnKJEv1DvZJdi76q/XFt6VzZ3V4bCE51NkDQ+dOJKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- splide -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 <body>
     <!-- header dropdown when scroll -->
@@ -183,20 +181,6 @@
                 
             </div>
         </div>
-
-        <!-- slider -->
-        <!-- <section class="splide max-w-7xl m-auto py-10" aria-labelledby="carousel-heading">            
-            <div class="splide__track text-white">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <img src="./images/eurobg1.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <img src="./images/eurobg2.jpg">
-                    </li>
-                </ul>
-            </div>
-        </section>  -->
 
         <!-- content -->
         <div class="mt-10">
@@ -618,33 +602,6 @@
         </div>
     </div>
 
-    <!-- splide -->
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var splide = new Splide('.splide', {
-                perPage: 1,
-                gap: '15px',
-                type: 'loop',
-                autoplay: true,
-                interval: 2000,
-                snap: true,
-                breakpoints: {
-                    448: {
-                        perPage: 1
-                    },
-                    768: {
-                        perPage: 2
-                    }
-                }
-                // start: 2,
-                // pagination: false,
-            });
-            splide.mount();
-        });
-    </script>
-
     <script src="./script.js"></script>
-    <script src="./tailwind.config.js"></script>
 </body>
 </html>
